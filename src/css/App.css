@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    /* background-color: #ffffff; */
+    height: 100%;
+    
+    -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-use-select: none;
+ user-select: none;
+}
+

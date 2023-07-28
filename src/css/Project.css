@@ -1,0 +1,51 @@
+.project-wrap{
+    
+    margin: 40px;
+    margin-top: 150px;
+    margin-left: 300px;
+    /* position: fixed; */
+}
+
+.project-wrap  a{
+  margin: 0;
+}
+.project-btn {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 13px 50px -2px rgba(234, 136, 39, 0.25),
+    12px 8px 14px -3px rgba(235, 36, 36, 0.3),
+    0 -6px 16px -6px rgba(237, 92, 92, 0.025);
+
+  }
+  
+  .project-btn:hover {
+    background-color: #ffd0a4;
+  }
+  
+  @media screen and (max-width: 1190px) {
+    .project-wrap{
+      margin-left: 50px;
+
+    }
+  }
+  @media screen and (max-width: 635px) {
+    .project-wrap{
+      margin-top: 70px;
+    }
+
+    .project-wrap{
+      margin-left: 3%;
+    }
+    .project-btn{
+      margin-top: 5%;
+      font-size: 10px;
+    }
+  }
