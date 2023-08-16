@@ -10,7 +10,7 @@ function Navigation(){
     return (
         <div className="nav">
             <Link to="/"><AiFillHome /> Home</Link>
-            <Link to="/matzip"><GrProjects /> Project</Link>
+            <Link to="/projects"><GrProjects /> Project</Link>
 
             <Link to="/skills"><GiComputing />   Skills</Link>
             {/* <Link to="/practice" className="project-icon"><GrProjects /> Project</Link> */}

@@ -24,7 +24,13 @@ class Project extends Component{
         }
       }
       scrollToThird = () => {
-        const movieElement = document.getElementById("third");
+        const movieElement = document.getElementById("third-movie");
+        if (movieElement) {
+          movieElement.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+      scrollToFourth = () => {
+        const movieElement = document.getElementById("fourth-movie");
         if (movieElement) {
           movieElement.scrollIntoView({ behavior: "smooth" });
         }
@@ -35,9 +41,10 @@ class Project extends Component{
             <div className="project-wrap">
                 <header>
                 <Link to="/practice" ><button onClick={this.handleClick} className="project-btn">최신영화 불러오기</button></Link>
-                <Link to="/matzip"><button onClick={this.handleClick} className="project-btn">맛집</button></Link>
-                <Link to="/matzip"></Link><button onClick={this.scrollToMovie} className="project-btn">팀프로젝트</button>
-                <button onClick={this.scrollToThird} className="project-btn">개인 프로젝트1</button>
+                <Link to="/projects"><button onClick={this.handleClick} className="project-btn">OMCS 팀프로젝트</button></Link>
+                <Link to="/projects"><button onClick={this.scrollToMovie} className="project-btn">맛집</button></Link>
+                <Link to="/projects"><button onClick={this.scrollToThird} className="project-btn">ToDoList 개인프로젝트</button></Link>
+                <Link to="/projects"><button onClick={this.scrollToFourth} className="project-btn">React 트위터 개인프로젝트</button></Link>
                 </header>
             </div>
         )

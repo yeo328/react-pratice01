@@ -10,7 +10,7 @@ import Top from './components/Top.js';
 import TripP from './routes/TripP';
 import Count from './routes/Count.js';
 import Project from './routes/Project';
-import Matzip from './components/Matzip';
+import Projects from './components/Projects';
 import History from './routes/History.js';
 
 function App(){
@@ -24,7 +24,7 @@ function App(){
         <Route path="/trip" component={TripP}/>
         <Route path="/" exact={true} component={Count}/>
         <Route path="/project" component={Project}/>
-        <Route path="/matzip" component={Matzip}/>
+        <Route path="/projects" component={Projects}/>
         <Route path="/history" component={History}/>
     </HashRouter>
   );

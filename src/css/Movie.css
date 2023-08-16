@@ -91,4 +91,19 @@
 
 .urlBtn{
     margin-left: 60%;
+
+
+    display: inline-block;
+    /* background-color: #007bff; */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.urlBtn:hover {
+    background-color: blanchedalmond;
 }
